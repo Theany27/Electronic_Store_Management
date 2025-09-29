@@ -24,6 +24,7 @@ namespace Electronic_Store_Management
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 
             MessageBox.Show("Welcome to Electronic Store Management System!");
             MessageBox.Show("Welcome to Electronic Store Management System!2");
@@ -31,6 +32,10 @@ namespace Electronic_Store_Management
             MessageBox.Show("Welcome to Electronic2 !");
 
 
+=======
+            MessageBox.Show("Welcome to Electronic !");
+            
+>>>>>>> 21c360f1508dacfaa210fe1c044665d8faf674e2
         }
     }
 }
