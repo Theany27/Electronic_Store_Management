@@ -24,9 +24,11 @@ namespace Electronic_Store_Management
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             MessageBox.Show("Welcome to Electronic Store Management System!");
             MessageBox.Show("Welcome to Electronic Store Management System!2");
-
+            MessageBox.Show("Welcome to Electronic !");
+            MessageBox.Show("Welcome to Electronic2 !");
 
 
         }
