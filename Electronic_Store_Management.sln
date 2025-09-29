@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Electronic_Store_Management", "Electronic_Store_Management\Electronic_Store_Management.csproj", "{12FE74A9-C2DC-4E6D-A530-E9C84901B4F7}"
 EndProject
