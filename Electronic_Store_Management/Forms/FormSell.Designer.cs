@@ -47,7 +47,6 @@
             // 
             this.dropdownsellpro.Location = new System.Drawing.Point(136, 33);
             this.dropdownsellpro.Name = "dropdownsellpro";
-            this.dropdownsellpro.Size = new System.Drawing.Size(135, 23);
             this.dropdownsellpro.TabIndex = 0;
             // 
             // label1
@@ -166,6 +165,7 @@
             this.Controls.Add(this.dropdownsellpro);
             this.Name = "FormSell";
             this.Text = "FormSell";
+            this.Load += new System.EventHandler(this.FormSell_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

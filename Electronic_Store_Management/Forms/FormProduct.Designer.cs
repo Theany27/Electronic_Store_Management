@@ -58,6 +58,7 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(982, 304);
             this.dataGridView2.TabIndex = 1;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // label1
             // 
@@ -156,7 +157,6 @@
             // 
             this.dropdownbtn.Location = new System.Drawing.Point(67, 116);
             this.dropdownbtn.Name = "dropdownbtn";
-            this.dropdownbtn.Size = new System.Drawing.Size(135, 23);
             this.dropdownbtn.TabIndex = 13;
             this.dropdownbtn.Text = "Power Bank";
             // 
@@ -164,7 +164,6 @@
             // 
             this.dropdowncategory.Location = new System.Drawing.Point(686, 35);
             this.dropdowncategory.Name = "dropdowncategory";
-            this.dropdowncategory.Size = new System.Drawing.Size(135, 23);
             this.dropdowncategory.TabIndex = 14;
             // 
             // label7

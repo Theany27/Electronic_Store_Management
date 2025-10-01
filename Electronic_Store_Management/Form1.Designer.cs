@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.panelLogo = new System.Windows.Forms.Panel();
-            this.btnhome = new System.Windows.Forms.Button();
-            this.btnsell = new System.Windows.Forms.Button();
-            this.btnproduct = new System.Windows.Forms.Button();
             this.btnreport = new System.Windows.Forms.Button();
+            this.btnproduct = new System.Windows.Forms.Button();
+            this.btnsell = new System.Windows.Forms.Button();
+            this.btnhome = new System.Windows.Forms.Button();
+            this.panelLogo = new System.Windows.Forms.Panel();
             this.paneltitle = new System.Windows.Forms.Panel();
-            this.paneldesktop = new System.Windows.Forms.Panel();
             this.toplabel = new System.Windows.Forms.Label();
+            this.paneldesktop = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.paneltitle.SuspendLayout();
             this.SuspendLayout();
@@ -53,35 +53,16 @@
             this.panelMenu.Size = new System.Drawing.Size(274, 745);
             this.panelMenu.TabIndex = 0;
             // 
-            // panelLogo
+            // btnreport
             // 
-            this.panelLogo.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(274, 115);
-            this.panelLogo.TabIndex = 1;
-            // 
-            // btnhome
-            // 
-            this.btnhome.FlatAppearance.BorderSize = 0;
-            this.btnhome.Location = new System.Drawing.Point(0, 155);
-            this.btnhome.Name = "btnhome";
-            this.btnhome.Size = new System.Drawing.Size(274, 36);
-            this.btnhome.TabIndex = 2;
-            this.btnhome.Text = "Home";
-            this.btnhome.UseVisualStyleBackColor = true;
-            this.btnhome.Click += new System.EventHandler(this.btnhome_Click);
-            // 
-            // btnsell
-            // 
-            this.btnsell.FlatAppearance.BorderSize = 0;
-            this.btnsell.Location = new System.Drawing.Point(0, 222);
-            this.btnsell.Name = "btnsell";
-            this.btnsell.Size = new System.Drawing.Size(274, 36);
-            this.btnsell.TabIndex = 3;
-            this.btnsell.Text = "Sell";
-            this.btnsell.UseVisualStyleBackColor = true;
-            this.btnsell.Click += new System.EventHandler(this.button2_Click);
+            this.btnreport.FlatAppearance.BorderSize = 0;
+            this.btnreport.Location = new System.Drawing.Point(0, 364);
+            this.btnreport.Name = "btnreport";
+            this.btnreport.Size = new System.Drawing.Size(274, 36);
+            this.btnreport.TabIndex = 5;
+            this.btnreport.Text = "Report";
+            this.btnreport.UseVisualStyleBackColor = true;
+            this.btnreport.Click += new System.EventHandler(this.btnreport_Click);
             // 
             // btnproduct
             // 
@@ -94,16 +75,35 @@
             this.btnproduct.UseVisualStyleBackColor = true;
             this.btnproduct.Click += new System.EventHandler(this.btnproduct_Click);
             // 
-            // btnreport
+            // btnsell
             // 
-            this.btnreport.FlatAppearance.BorderSize = 0;
-            this.btnreport.Location = new System.Drawing.Point(0, 364);
-            this.btnreport.Name = "btnreport";
-            this.btnreport.Size = new System.Drawing.Size(274, 36);
-            this.btnreport.TabIndex = 5;
-            this.btnreport.Text = "Report";
-            this.btnreport.UseVisualStyleBackColor = true;
-            this.btnreport.Click += new System.EventHandler(this.btnreport_Click);
+            this.btnsell.FlatAppearance.BorderSize = 0;
+            this.btnsell.Location = new System.Drawing.Point(0, 222);
+            this.btnsell.Name = "btnsell";
+            this.btnsell.Size = new System.Drawing.Size(274, 36);
+            this.btnsell.TabIndex = 3;
+            this.btnsell.Text = "Sell";
+            this.btnsell.UseVisualStyleBackColor = true;
+            this.btnsell.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // btnhome
+            // 
+            this.btnhome.FlatAppearance.BorderSize = 0;
+            this.btnhome.Location = new System.Drawing.Point(0, 155);
+            this.btnhome.Name = "btnhome";
+            this.btnhome.Size = new System.Drawing.Size(274, 36);
+            this.btnhome.TabIndex = 2;
+            this.btnhome.Text = "Home";
+            this.btnhome.UseVisualStyleBackColor = true;
+            this.btnhome.Click += new System.EventHandler(this.btnhome_Click);
+            // 
+            // panelLogo
+            // 
+            this.panelLogo.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(274, 115);
+            this.panelLogo.TabIndex = 1;
             // 
             // paneltitle
             // 
@@ -115,24 +115,24 @@
             this.paneltitle.TabIndex = 2;
             this.paneltitle.Paint += new System.Windows.Forms.PaintEventHandler(this.paneltitle_Paint);
             // 
-            // paneldesktop
-            // 
-            this.paneldesktop.Location = new System.Drawing.Point(280, 115);
-            this.paneldesktop.Name = "paneldesktop";
-            this.paneldesktop.Size = new System.Drawing.Size(1087, 617);
-            this.paneldesktop.TabIndex = 3;
-            this.paneldesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.paneldesktop_Paint);
-            // 
             // toplabel
             // 
             this.toplabel.AutoSize = true;
-            this.toplabel.Font = new System.Drawing.Font("Monospac821 BT", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toplabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toplabel.Location = new System.Drawing.Point(504, 24);
             this.toplabel.Name = "toplabel";
-            this.toplabel.Size = new System.Drawing.Size(78, 32);
+            this.toplabel.Size = new System.Drawing.Size(90, 31);
             this.toplabel.TabIndex = 0;
             this.toplabel.Text = "Home";
             this.toplabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // paneldesktop
+            // 
+            this.paneldesktop.Location = new System.Drawing.Point(280, 82);
+            this.paneldesktop.Name = "paneldesktop";
+            this.paneldesktop.Size = new System.Drawing.Size(1087, 650);
+            this.paneldesktop.TabIndex = 3;
+            this.paneldesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.paneldesktop_Paint);
             // 
             // Form1
             // 

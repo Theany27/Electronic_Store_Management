@@ -36,5 +36,10 @@ namespace Electronic_Store_Management.Forms
         {
 
         }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

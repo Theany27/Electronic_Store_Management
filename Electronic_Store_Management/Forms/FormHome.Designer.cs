@@ -102,7 +102,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.Desktop;
+            this.panel4.BackColor = System.Drawing.Color.Red;
             this.panel4.Controls.Add(this.label2);
             this.panel4.Location = new System.Drawing.Point(584, 156);
             this.panel4.Name = "panel4";

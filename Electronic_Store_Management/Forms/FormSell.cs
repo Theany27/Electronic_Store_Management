@@ -21,5 +21,10 @@ namespace Electronic_Store_Management.Forms
         {
 
         }
+
+        private void FormSell_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
