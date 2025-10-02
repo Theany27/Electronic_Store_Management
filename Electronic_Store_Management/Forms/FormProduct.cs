@@ -15,6 +15,18 @@ namespace Electronic_Store_Management.Forms
         public FormProduct()
         {
             InitializeComponent();
+            ProductsModel products=new ProductsModel();
+            int qty=products.StockQuantity - 1;
+            List<ProductsModel> productsList = ProductServiesData.GetProducts();
+            productsList.Add(products);
+            tblproductform.DataSource = productsList.Select(x => new
+            {
+                x.Category,
+                x.ProductID,
+                x.ProductName,
+                x.Price,
+                x.StockQuantity
+            }).ToList();
         }
 
         private void label4_Click(object sender, EventArgs e)

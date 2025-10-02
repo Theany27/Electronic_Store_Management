@@ -125,6 +125,7 @@
             this.toplabel.TabIndex = 0;
             this.toplabel.Text = "Home";
             this.toplabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.toplabel.Click += new System.EventHandler(this.toplabel_Click);
             // 
             // paneldesktop
             // 

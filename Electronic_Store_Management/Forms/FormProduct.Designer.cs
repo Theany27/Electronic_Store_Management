@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.tblproductform = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.txtid = new System.Windows.Forms.TextBox();
             this.txtname = new System.Windows.Forms.TextBox();
@@ -47,18 +47,20 @@
             this.btnclear = new System.Windows.Forms.Button();
             this.comboboxproductfilter = new System.Windows.Forms.ComboBox();
             this.comboboxcategorypro = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.btnfilter = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.tblproductform)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView2
+            // tblproductform
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 223);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(982, 304);
-            this.dataGridView2.TabIndex = 1;
-            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
+            this.tblproductform.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.tblproductform.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tblproductform.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.tblproductform.Location = new System.Drawing.Point(0, 223);
+            this.tblproductform.Name = "tblproductform";
+            this.tblproductform.Size = new System.Drawing.Size(982, 409);
+            this.tblproductform.TabIndex = 1;
+            this.tblproductform.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // label1
             // 
@@ -226,11 +228,21 @@
             this.comboboxcategorypro.Size = new System.Drawing.Size(121, 21);
             this.comboboxcategorypro.TabIndex = 21;
             // 
+            // btnfilter
+            // 
+            this.btnfilter.Location = new System.Drawing.Point(826, 35);
+            this.btnfilter.Name = "btnfilter";
+            this.btnfilter.Size = new System.Drawing.Size(75, 23);
+            this.btnfilter.TabIndex = 22;
+            this.btnfilter.Text = "Filter";
+            this.btnfilter.UseVisualStyleBackColor = true;
+            // 
             // FormProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(982, 527);
+            this.ClientSize = new System.Drawing.Size(982, 632);
+            this.Controls.Add(this.btnfilter);
             this.Controls.Add(this.comboboxcategorypro);
             this.Controls.Add(this.comboboxproductfilter);
             this.Controls.Add(this.btnclear);
@@ -249,10 +261,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtid);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.tblproductform);
             this.Name = "FormProduct";
             this.Text = "FormProduct";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblproductform)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -260,7 +272,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView tblproductform;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtid;
         private System.Windows.Forms.TextBox txtname;
@@ -281,5 +293,6 @@
         private System.Windows.Forms.Button btnclear;
         private System.Windows.Forms.ComboBox comboboxproductfilter;
         private System.Windows.Forms.ComboBox comboboxcategorypro;
+        private System.Windows.Forms.Button btnfilter;
     }
 }

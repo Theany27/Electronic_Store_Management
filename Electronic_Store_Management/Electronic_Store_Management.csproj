@@ -273,6 +273,8 @@
     <Compile Include="Forms\FormSell.Designer.cs">
       <DependentUpon>FormSell.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductServiesData.cs" />
+    <Compile Include="ProductsModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
