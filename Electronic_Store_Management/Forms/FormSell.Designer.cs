@@ -39,6 +39,7 @@
             this.btnpaynow = new System.Windows.Forms.Button();
             this.btncancel = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.comboboxsell = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -139,11 +140,26 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Curent Product:";
             // 
+            // comboboxsell
+            // 
+            this.comboboxsell.FormattingEnabled = true;
+            this.comboboxsell.Items.AddRange(new object[] {
+            "Power Bank",
+            "USB Cable",
+            "TypeC Cable",
+            "Network Cable",
+            "Azus Adapter"});
+            this.comboboxsell.Location = new System.Drawing.Point(123, 35);
+            this.comboboxsell.Name = "comboboxsell";
+            this.comboboxsell.Size = new System.Drawing.Size(121, 21);
+            this.comboboxsell.TabIndex = 12;
+            // 
             // FormSell
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(985, 573);
+            this.Controls.Add(this.comboboxsell);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.btnpaynow);
@@ -176,6 +192,7 @@
         private System.Windows.Forms.Button btnpaynow;
         private System.Windows.Forms.Button btncancel;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox comboboxsell;
         //private DropDownButton dropdownsellpro;
         //private DropDownButton dropDownButton1;
         //private GalleryDropDown galleryDropDown1;

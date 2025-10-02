@@ -40,13 +40,13 @@
             this.txtprice = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            //this.dropdownbtn = new DevExpress.XtraEditors.DropDownButton();
-            //this.dropdowncategory = new DevExpress.XtraEditors.DropDownButton();
             this.label7 = new System.Windows.Forms.Label();
             this.btnadd = new System.Windows.Forms.Button();
             this.btnupdate = new System.Windows.Forms.Button();
             this.btndelete = new System.Windows.Forms.Button();
             this.btnclear = new System.Windows.Forms.Button();
+            this.comboboxproductfilter = new System.Windows.Forms.ComboBox();
+            this.comboboxcategorypro = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -153,19 +153,6 @@
             this.label6.Text = "Category";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // dropdownbtn
-            // 
-            //this.dropdownbtn.Location = new System.Drawing.Point(67, 116);
-            //this.dropdownbtn.Name = "dropdownbtn";
-            //this.dropdownbtn.TabIndex = 13;
-            //this.dropdownbtn.Text = "Power Bank";
-            // 
-            // dropdowncategory
-            // 
-            //this.dropdowncategory.Location = new System.Drawing.Point(686, 35);
-            //this.dropdowncategory.Name = "dropdowncategory";
-            //this.dropdowncategory.TabIndex = 14;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -211,18 +198,46 @@
             this.btnclear.Text = "Clear";
             this.btnclear.UseVisualStyleBackColor = true;
             // 
+            // comboboxproductfilter
+            // 
+            this.comboboxproductfilter.FormattingEnabled = true;
+            this.comboboxproductfilter.Items.AddRange(new object[] {
+            "Power Bank",
+            "USB Cable",
+            "TypeC Cable",
+            "Network Cable",
+            "Azus Adapter"});
+            this.comboboxproductfilter.Location = new System.Drawing.Point(699, 35);
+            this.comboboxproductfilter.Name = "comboboxproductfilter";
+            this.comboboxproductfilter.Size = new System.Drawing.Size(121, 21);
+            this.comboboxproductfilter.TabIndex = 20;
+            // 
+            // comboboxcategorypro
+            // 
+            this.comboboxcategorypro.FormattingEnabled = true;
+            this.comboboxcategorypro.Items.AddRange(new object[] {
+            "Power Bank",
+            "USB Cable",
+            "TypeC Cable",
+            "Network Cable",
+            "Azus Adapter"});
+            this.comboboxcategorypro.Location = new System.Drawing.Point(67, 115);
+            this.comboboxcategorypro.Name = "comboboxcategorypro";
+            this.comboboxcategorypro.Size = new System.Drawing.Size(121, 21);
+            this.comboboxcategorypro.TabIndex = 21;
+            // 
             // FormProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(982, 527);
+            this.Controls.Add(this.comboboxcategorypro);
+            this.Controls.Add(this.comboboxproductfilter);
             this.Controls.Add(this.btnclear);
             this.Controls.Add(this.btndelete);
             this.Controls.Add(this.btnupdate);
             this.Controls.Add(this.btnadd);
             this.Controls.Add(this.label7);
-            //this.Controls.Add(this.dropdowncategory);
-            //this.Controls.Add(this.dropdownbtn);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtprice);
             this.Controls.Add(this.label5);
@@ -264,5 +279,7 @@
         private System.Windows.Forms.Button btnupdate;
         private System.Windows.Forms.Button btndelete;
         private System.Windows.Forms.Button btnclear;
+        private System.Windows.Forms.ComboBox comboboxproductfilter;
+        private System.Windows.Forms.ComboBox comboboxcategorypro;
     }
 }
