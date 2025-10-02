@@ -69,5 +69,10 @@ namespace Electronic_Store_Management
         {
             OpenchildForm(new Forms.btnexporttopdf());
         }
+
+        private void toplabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
