@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dropdownsellpro = new DevExpress.XtraEditors.DropDownButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtsellprice = new System.Windows.Forms.TextBox();
@@ -42,12 +41,6 @@
             this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dropdownsellpro
-            // 
-            this.dropdownsellpro.Location = new System.Drawing.Point(136, 33);
-            this.dropdownsellpro.Name = "dropdownsellpro";
-            this.dropdownsellpro.TabIndex = 0;
             // 
             // label1
             // 
@@ -162,7 +155,6 @@
             this.Controls.Add(this.txtsellprice);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dropdownsellpro);
             this.Name = "FormSell";
             this.Text = "FormSell";
             this.Load += new System.EventHandler(this.FormSell_Load);
@@ -173,8 +165,6 @@
         }
 
         #endregion
-
-        private DevExpress.XtraEditors.DropDownButton dropdownsellpro;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtsellprice;
@@ -186,5 +176,8 @@
         private System.Windows.Forms.Button btnpaynow;
         private System.Windows.Forms.Button btncancel;
         private System.Windows.Forms.Label label5;
+        //private DropDownButton dropdownsellpro;
+        //private DropDownButton dropDownButton1;
+        //private GalleryDropDown galleryDropDown1;
     }
 }

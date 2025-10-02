@@ -40,8 +40,8 @@
             this.txtprice = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.dropdownbtn = new DevExpress.XtraEditors.DropDownButton();
-            this.dropdowncategory = new DevExpress.XtraEditors.DropDownButton();
+            //this.dropdownbtn = new DevExpress.XtraEditors.DropDownButton();
+            //this.dropdowncategory = new DevExpress.XtraEditors.DropDownButton();
             this.label7 = new System.Windows.Forms.Label();
             this.btnadd = new System.Windows.Forms.Button();
             this.btnupdate = new System.Windows.Forms.Button();
@@ -155,16 +155,16 @@
             // 
             // dropdownbtn
             // 
-            this.dropdownbtn.Location = new System.Drawing.Point(67, 116);
-            this.dropdownbtn.Name = "dropdownbtn";
-            this.dropdownbtn.TabIndex = 13;
-            this.dropdownbtn.Text = "Power Bank";
+            //this.dropdownbtn.Location = new System.Drawing.Point(67, 116);
+            //this.dropdownbtn.Name = "dropdownbtn";
+            //this.dropdownbtn.TabIndex = 13;
+            //this.dropdownbtn.Text = "Power Bank";
             // 
             // dropdowncategory
             // 
-            this.dropdowncategory.Location = new System.Drawing.Point(686, 35);
-            this.dropdowncategory.Name = "dropdowncategory";
-            this.dropdowncategory.TabIndex = 14;
+            //this.dropdowncategory.Location = new System.Drawing.Point(686, 35);
+            //this.dropdowncategory.Name = "dropdowncategory";
+            //this.dropdowncategory.TabIndex = 14;
             // 
             // label7
             // 
@@ -221,8 +221,8 @@
             this.Controls.Add(this.btnupdate);
             this.Controls.Add(this.btnadd);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.dropdowncategory);
-            this.Controls.Add(this.dropdownbtn);
+            //this.Controls.Add(this.dropdowncategory);
+            //this.Controls.Add(this.dropdownbtn);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtprice);
             this.Controls.Add(this.label5);
@@ -257,8 +257,8 @@
         private System.Windows.Forms.TextBox txtprice;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private DevExpress.XtraEditors.DropDownButton dropdownbtn;
-        private DevExpress.XtraEditors.DropDownButton dropdowncategory;
+        //private DevExpress.XtraEditors.DropDownButton dropdownbtn;
+        //private DevExpress.XtraEditors.DropDownButton dropdowncategory;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnadd;
         private System.Windows.Forms.Button btnupdate;
