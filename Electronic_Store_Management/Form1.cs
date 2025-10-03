@@ -74,5 +74,10 @@ namespace Electronic_Store_Management
         {
 
         }
+
+        private void panelLogo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
